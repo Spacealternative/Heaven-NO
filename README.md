@@ -22,12 +22,14 @@ pip install pygame
 Before running the game, you must update the file paths for the aircraft and fire textures.
 By default, the code uses local paths like this:
 
+```bash
 PLANE_PATHS = {
     "B17": Path(r"D:\Hamster\Material\B17.png"),
     "B29": Path(r"D:\Hamster\Material\B29.png"),
     "B36": Path(r"D:\Hamster\Material\B36.png"),
 }
 FIRE_PATH = Path(r"D:\Hamster\Material\FIRE.png")
+```
 
 **What you need to do**
 
@@ -39,12 +41,14 @@ C:\Users\YourName\Desktop\assets\
 
 Then **update the code** to:
 
+```bash
 PLANE_PATHS = {
     "B17": Path(r"C:\Users\YourName\Desktop\assets\B17.png"),
     "B29": Path(r"C:\Users\YourName\Desktop\assets\B29.png"),
     "B36": Path(r"C:\Users\YourName\Desktop\assets\B36.png"),
 }
 FIRE_PATH = Path(r"C:\Users\YourName\Desktop\assets\FIRE.png")
+```
 
 **Notes**
 Make sure all image filenames match exactly (including capitalization)
